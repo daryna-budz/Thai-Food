@@ -129,3 +129,79 @@
     transform: translateX(-50%);
 }
 
+.fast-food{
+    min-height: 794px;
+    padding: 45px 0 45px 0;
+}
+
+.subheader{
+    font-family: 'Permanent Marker', cursive;
+    color: #89b758;
+    font-weight: 600;
+    font-size: 24.6px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header{
+    font-family: 'Barlow',serif;
+    color: #29361A;
+    text-align: center;
+    line-height: 67px;
+    font-weight: 900;
+    font-size: 61px;
+    margin-top: 5px;
+}
+
+.menu{
+    width: 1166px;
+    height: 520px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.item{
+    width: 359px;
+    height: 425px;
+}
+
+.item_1{
+    background: url("images/combo.png");
+}
+
+.item_2{
+    background: url("images/combo.png");
+}
+
+.item_3{
+    background: url("images/combo.png");
+}
+
+.item_box{
+    color: white;
+    width: 295px;
+    height: 280px;
+    text-align: center;
+    margin-top: 210px;
+    position: absolute;
+    z-index: 2;
+}
+
+.item_header{
+    font-family: 'Barlow',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.6px;
+    color: #232323;
+    margin-bottom: 14.5px;
+}
+
+.item_text{
+    color: #808080;
+    font-family: 'Roboto',sans-serif;
+    width: 200px;
+    font-weight: 500;
+    font-size: 16px;
+}
