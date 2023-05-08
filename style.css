@@ -47,13 +47,9 @@
     text-transform: uppercase;
     color: #ffff;
     font-weight: 600;
-    transition: 0.2s;
     text-decoration: none;
 }
 
-.navbar-right .panel .panel-txt:hover{
-    color: #ffff00;
-}
 
 .navbar-right .panel button{
     padding: 8px 24px;
@@ -70,10 +66,13 @@
     min-height: 50px;
 }
 
+#buy-now{
+    transition: 0.3s;
+}
+
 #buy-now:hover{
     color: #ffff00;
     border: 1px solid #ffff00;
-    transition: 0.3s;
 }
 
 .food{
@@ -98,7 +97,7 @@
     text-align: center;
 }
 
-.food .order_button{
+.order_button{
     position: absolute;
     font-weight: 600;
     font-size: 16px;
@@ -111,12 +110,12 @@
     left: 50%;
     transform: translateX(-50%);
     margin-top: 45px;
+    transition: 0.3s;
 }
 
 .order_button:hover{
     color: #ffff00;
     border: 1px solid #ffff00;
-    transition: 0.3s;
 }
 
 .order_img{
@@ -149,7 +148,7 @@
     text-align: center;
     line-height: 67px;
     font-weight: 900;
-    font-size: 61px;
+    font-size: 60.8px;
     margin-top: 5px;
 }
 
@@ -232,3 +231,82 @@
     height: 30px;
     width: 30px;
 }
+
+.traditions{
+    padding-top: 90px;
+    min-height: 670.2px;
+}
+
+.block{
+    width: 1165px;
+    height: 475.23px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.traditions_block{
+    width: 583px;
+    height: 475.23px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.18);
+    border-radius: 4px;
+}
+
+.subheader_traditions{
+    margin-top: 47px;
+}
+
+.header_traditions{
+    margin: 0 auto;
+    margin-top: 5px;
+    padding-left: 84.39px;
+    padding-right: 84.19px;
+}
+
+.traditions_text{
+    margin-top: 25.88px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 29px;
+    text-align: center;
+    color: #808080;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.traditions_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 44.19px;
+    background: #89B758;
+    border: 1px solid #89B758;
+    border-radius: 100px;
+    text-transform: uppercase;
+    min-width: 215.81px;
+    min-height: 62.8px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.traditions_button:hover{
+    background: #29361A;
+    border: 1px solid #29361A;
+}
+
+.traditions_img{
+    height: 475.23px;
+    width: 227.5px;
+    border-radius: 4px;
+}
+
+
