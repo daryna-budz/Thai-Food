@@ -315,6 +315,7 @@
 
 
 .round_circle{
+    display: flex;
     width: 800px;
     height: 750px;
     border-radius: 100%;
@@ -338,10 +339,18 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 151px;
-    margin-left: 520px;
+    padding-top: 80px;
+    margin-left: 50px;
     width: 194.33px;
     height: 650.53px;
+}
+
+
+.round_img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    right: 7px;
 }
 
 .round_block_flex{
@@ -351,7 +360,27 @@
     width: 330px;
 }
 
+.image_container{
+    overflow: hidden;
+}
 
+.image_container img{
+    width: 475px;
+    height: 433px;
+    margin-top: 57.67px;
+    margin-left: 7px;
+    animation: slide-left-right 1.3s infinite alternate ;
+}
+
+@keyframes slide-left-right {
+    0% {
+        transform: translateX(-10px);
+    }
+
+    100% {
+        transform: translateX(10px);
+    }
+}
 
 
 
