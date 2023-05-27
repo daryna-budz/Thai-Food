@@ -6,6 +6,7 @@
 
 .main{
     background-color: #89b758;
+    min-width: 1166px;
 }
 
 .navbar{
@@ -53,20 +54,20 @@
 
 .navbar-right .panel button{
     padding: 8px 24px;
-    margin: 24px 13px;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     text-transform: uppercase;
     background: #ffff;
     color: #E7272D;
     font-weight: 600;
-    border-radius: 40px;
     border: #ffff;
     min-width: 127px;
     min-height: 50px;
 }
 
 #buy-now{
+    border-radius: 40px;
+    margin: 24px 13px;
     transition: 0.3s;
 }
 
@@ -78,6 +79,7 @@
 .food{
     background-color: #89b758;
     min-height: 1150px;
+    min-width: 1166px;
     padding: 72px 0 0 0;
     position: relative;
 }
@@ -381,6 +383,88 @@
         transform: translateX(10px);
     }
 }
+
+.our_menu{
+    min-height: 976px;
+}
+
+.menu_header{
+    color: black;
+}
+
+.menu_items{
+    height: 767px;
+    width: 1190px;
+    margin: 0 auto;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_item{
+    display: flex;
+    margin-bottom: 38px;
+}
+
+.menu_image{
+    width: 110px;
+    height: 110px;
+    margin-right: 32px;
+}
+
+.menu_item_header{
+    width: 77px;
+    height: 31.8px;
+    background: #89B758;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding-top: 5px;
+    margin-bottom: 12px;
+}
+
+.menu_item_text{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    font-size: 25.6px;
+    color: #000000;
+}
+
+.dotted{
+    margin-top: 27px;
+    margin-left: 8px;
+    margin-right: 8px;
+    height: 2px;
+    width: 225.66px;
+    background-color: #9A9A9A;
+}
+
+.menu_item_price{
+    color: #89B758;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    font-size: 25.6px;
+}
+
+.menu_item_subheader{
+    display: flex;
+}
+
+.menu_item_descr{
+    margin-top: 7px;
+    max-width: 393.93px;
+    font-family: 'Roboto', sans-serif;
+    max-height: 58px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #808080;
+}
+
+
 
 
 
