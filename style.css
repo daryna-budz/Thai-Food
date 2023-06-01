@@ -9,6 +9,7 @@
     min-width: 1166px;
 }
 
+
 .navbar{
     min-height: 100px;
     display: flex;
@@ -84,16 +85,17 @@
     position: relative;
 }
 
-.food .header{
+.thai_header{
     color: #fff;
     font-weight: 900;
     font-size: 60px;
     text-align: center;
 }
 
-.food .description{
+.description{
+    font-family: 'Roboto',sans-serif;
     margin-top: 26px;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
     color: #fff;
     text-align: center;
@@ -438,7 +440,7 @@
     margin-top: 27px;
     margin-left: 8px;
     margin-right: 8px;
-    height: 2px;
+    height: 1px;
     width: 225.66px;
     background-color: #9A9A9A;
 }
@@ -464,6 +466,68 @@
     color: #808080;
 }
 
+.choose{
+    background-color: #232323;
+    height: 724.34px;
+}
+
+.choose_container{
+    justify-content: space-around;
+    margin: 0 auto;
+    display: flex;
+    width: 1150px;
+    height: 424.34px;
+}
+
+.choose_left div{
+    text-align: left;
+}
+
+.choose_right div{
+    text-align: right;
+}
+
+.choose_subheader{
+    margin-top: 74px;
+    color: #E7272D;
+    font-weight: 400;
+}
+
+.choose_header{
+    color: #fff;
+    max-width: 355.26px;
+}
+
+.choose_button{
+    background-color: #E7272D;
+    color: #fff;
+    border: none;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 16.5px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    min-width: 230px;
+    min-height: 63px;
+    margin-top: 45px;
+    transition: 0.5s;
+}
+
+.choose_button:hover{
+    background-color: #f4c430;
+}
+
+.choose_text{
+    max-width: 349.18px;
+    margin-top: 26px;
+    line-height: 29px;
+}
+
+.choose_img{
+    width: 420px;
+    height: 387.69px;
+    margin-top: 270px;
+}
 
 
 
