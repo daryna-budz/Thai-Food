@@ -271,8 +271,7 @@
 .traditions_text{
     margin-top: 25.88px;
     font-family: 'Roboto',sans-serif;
-    font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
     line-height: 29px;
     text-align: center;
@@ -469,6 +468,7 @@
 .choose{
     background-color: #232323;
     height: 724.34px;
+    min-width: 1185px;
 }
 
 .choose_container{
@@ -529,6 +529,128 @@
     margin-top: 270px;
 }
 
+.news{
+    height: 798.28px;
+}
 
+.news_container{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1197px;
+    text-align: center;
+}
 
+.news_item{
+    position: relative;
+}
 
+.news_header{
+    color: #232323;
+}
+
+.news_img{
+    display: block;
+    position: absolute;
+    margin-top: 67px;
+    margin-left: 24px;
+    width: 310.66px;
+    height: 220px;
+    border-radius: 9px;
+    z-index: 15;
+    transition: transform 0.3s ease;
+}
+
+.news_img:hover{
+    transform: scale(1.1);
+}
+
+.news_block{
+    position: absolute;
+    margin-top: 91px;
+    width: 358.66px;
+    height: 461.58px;
+    background-color: #fff;
+    border-radius: 9px;
+    padding: 236px 40px 197px 40px;
+    transition: 0.5s;
+}
+
+.news_block:hover{
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.18);
+}
+
+.news_description{
+    text-align: left;
+}
+
+.news_sign{
+    display: flex;
+}
+
+.news_location, .news_date{
+    display: flex;
+}
+
+.news_date{
+    margin-left: 23px;
+}
+
+.location_icon{
+    width: 21px;
+    height: 22px;
+    margin-right: 3px;
+}
+
+.location_text{
+    text-transform: uppercase;
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #E7272D;
+}
+
+.news_subheader{
+    margin-top: 12.8px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    font-size: 25.6px;
+    color: #232323;
+}
+
+.news_text{
+    margin-top: 14.6px;
+    max-width: 199px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #767676;
+}
+
+.news_link:hover{
+    color: red;
+}
+
+.more_link{
+    display: block;
+    margin-top: 16.59px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #0E0E0E;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.more_link img{
+    width: 20px;
+    height: 20px;
+    margin-top: -4px;
+    margin-left: 7px;
+    transition: transform 0.3s ease;
+}
+
+.more_link:hover img{
+    transform: translateX(15px);
+}
