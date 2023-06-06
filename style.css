@@ -654,3 +654,45 @@
 .more_link:hover img{
     transform: translateX(15px);
 }
+
+.watch{
+    height: 916.7px;
+}
+
+.watch_video{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.watch_image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1136px;
+    height: 600px;
+    margin-top: -10px;
+}
+
+.watch_btn{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #89b758;
+    z-index: 2;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+}
+
+.watch_btn img{
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+}
+
+
