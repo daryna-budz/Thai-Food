@@ -531,6 +531,7 @@
 
 .news{
     height: 798.28px;
+    min-width: 1185px;
 }
 
 .news_container{
@@ -657,6 +658,7 @@
 
 .watch{
     height: 916.7px;
+    min-width: 1185px;
 }
 
 .watch_video{
@@ -697,6 +699,7 @@
 
 .clients{
     min-height: 681px;
+    min-width: 1185px;
     background-color: #F3F7EE;
     padding: 90px 0 120px 0;
 }
@@ -751,4 +754,75 @@
     text-align: center;
     color: #808080;
     margin-top: 12px;
+}
+
+.subscribe{
+    display: flex;
+    position: relative;
+    height: 468px;
+    min-width: 1300px;
+    background-color: #89B758;
+    padding-top: 140px;
+    padding-left: 200px;
+}
+
+.subscribe_img{
+    position: absolute;
+    bottom: 0;
+    width: 359px;
+    height: 438px;
+    margin-left: 770px;
+
+}
+
+
+.subscribe_header{
+    color: #fff;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.subscribe_descr{
+    font-family: 'Roboto',sans-serif;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.subscribe_form{
+    margin-top: 24px;
+}
+
+.subscribe_input{
+    height: 62px;
+    width: 418px;
+    padding: 20px 29px 20px 29px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    margin-right: 11px;
+    font-family: 'Barlow',sans-serif;
+    font-weight: 400;
+    font-size: 17.6px;
+    color: #808080;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+.subscribe_btn{
+    width: 220.16px;
+    height: 62.8px;
+    background: #29361A;
+    border: 1px solid #29361A;
+    border-radius: 30px;
+    color: #fff;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 16.5px;
+    text-transform: uppercase;
 }
