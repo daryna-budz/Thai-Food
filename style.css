@@ -531,18 +531,19 @@
 
 .news{
     height: 798.28px;
-    min-width: 1185px;
 }
 
 .news_container{
+    width: 1175px;
+    height: 530px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    max-width: 1197px;
-    text-align: center;
 }
 
 .news_item{
     position: relative;
+    width: 30%;
 }
 
 .news_header{
@@ -825,4 +826,72 @@ select:focus {
     font-weight: 600;
     font-size: 16.5px;
     text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.subscribe_btn:hover{
+    background-color: #000;
+}
+
+
+.question{
+    height: 700px;
+    min-width: 1185px;
+}
+
+.question_block{
+    justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+    width: 1166px;
+    height: 550px;
+    margin-top: 75px;
+}
+
+.question_header{
+    font-family: 'Barlow',sans-serif;
+    font-weight: 900;
+    font-size: 25.6px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.question_input{
+    display: block;
+    height: 62px;
+    width: 551px;
+    padding: 20px 29px 20px 29px;
+    background-color: #FFFFFF;
+    border: 1px solid #C1C1C1;
+    border-radius: 10px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 17.6px;
+    color: #808080;
+    margin-top: 18px;
+}
+
+.question_textarea{
+    width: 551px;
+    height: 158px;
+}
+
+.question_btn{
+    margin-top: 23px;
+    width: 227.7px;
+    height: 62.8px;
+    background-color: #89B758;
+    border: 1px solid #89B758;
+    border-radius: 30px;
+    font-family: 'Roboto',sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.question_btn:hover{
+    background-color: #000;
 }
