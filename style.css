@@ -699,7 +699,7 @@
 }
 
 .clients{
-    min-height: 681px;
+    height: 681px;
     min-width: 1185px;
     background-color: #F3F7EE;
     padding: 90px 0 120px 0;
@@ -835,8 +835,10 @@ select:focus {
 
 
 .question{
-    height: 700px;
+    min-height: 620px;
     min-width: 1185px;
+    padding: 75px 0 81px 0;
+
 }
 
 .question_block{
@@ -844,8 +846,7 @@ select:focus {
     margin: 0 auto;
     display: flex;
     width: 1166px;
-    height: 550px;
-    margin-top: 75px;
+    min-height: 550px;
 }
 
 .question_header{
@@ -873,7 +874,7 @@ select:focus {
 
 .question_textarea{
     width: 551px;
-    height: 158px;
+    min-height: 158px;
 }
 
 .question_btn{
@@ -894,4 +895,102 @@ select:focus {
 
 .question_btn:hover{
     background-color: #000;
+}
+
+.subfooter{
+    background-color: #F3F7EE;
+    min-height: 276px;
+}
+
+.subfooter_container{
+    display: flex;
+    justify-content: space-around;
+    width: 1166px;
+    height: 216px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.container_contact{
+    display: flex;
+    flex-direction: column;
+    width: 359px;
+    height: 200px;
+    justify-content: space-around;
+}
+
+.contact_div{
+    display: flex;
+}
+
+.contact_text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #808080;
+}
+
+.contact_tel{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: #89B758;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.contact_tel:hover{
+    color: #d1e7b7;
+}
+
+.container_logo{
+    display: flex;
+    flex-direction: column;
+    width: 359px;
+    height: 154px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_img{
+    width: 80px;
+    height: 80px;
+}
+
+.logo_txt{
+    width: 325px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    text-align: center;
+    color: #808080;
+}
+
+.container_feed{
+    display: flex;
+    flex-direction: column;
+    width: 359px;
+    height: 165px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feed_txt{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    font-size: 25.6px;
+    color: #29361A;
+}
+
+.feed_icons{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.feed_icon{
+    width: 110px;
+    height: 110px;
+    border-radius: 6px;
 }
