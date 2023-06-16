@@ -1,0 +1,111 @@
+@media (max-width: 991px){
+    .description, .news_text, .more_link{
+        font-size: 18px;
+    }
+    .order_button{
+        font-size: 18px;
+        width: 230px;
+        height: 72px;
+    }
+
+    .item_buy{
+        width: 70px;
+        height: 70px;
+    }
+    .traditions_button{
+        font-size: 18px;
+        width: 225px;
+        height: 72px;
+    }
+    .round_circle{
+        width: 850px;
+        height: 800px;
+    }
+    .text_column{
+        margin-left: 75px;
+    }
+
+    .menu_items{
+        width: 1217px;
+    }
+
+    .menu_item{
+        margin-bottom: 50px;
+    }
+
+    .menu_item_header{
+        font-size: 17px;
+        width: 86px;
+    }
+
+    .menu_item_text{
+        font-size: 26.6px;
+    }
+
+    .menu_item_descr{
+        font-size: 18px;
+    }
+
+    .subheader{
+        margin-top: 40px;
+    }
+    .choose_subheader{
+        font-size: 27px;
+    }
+
+    .choose_img{
+        width: 440px;
+        height: 396.69px;
+    }
+
+    .choose_text{
+        line-height: 32px;
+    }
+    .choose_button{
+        font-size: 19px;
+    }
+
+    .watch_btn{
+        width: 110px;
+        height: 110px;
+    }
+
+    .watch_btn img{
+        width: 80px;
+        height: 80px;
+    }
+
+
+    .clients_btn{
+        width: 90px;
+        height: 90px;
+    }
+
+    .question_input{
+        font-size: 19px;
+    }
+    .container_logo{
+        height: 175px;
+    }
+    .logo_txt, .contact_text, .contact_tel{
+        font-size: 17px;
+    }
+
+    .about_txt{
+        font-size: 18px;
+    }
+
+    .container_right{
+        width: 245px;
+    }
+
+    .social_round{
+        width: 50px;
+        height: 50px;
+    }
+
+    .social_icon{
+        width: 30px;
+        height: 30px;
+    }
+}
