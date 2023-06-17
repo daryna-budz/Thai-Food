@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="media.css">
 </head>
@@ -17,38 +18,57 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   <section class="main">
     <nav class="navbar">
+
       <div class="navbar-left">
         <div class="logo">
-          <img src="https://mobirise.com/extensions/dinerm4/assets/images/logo2.png" alt="pizza">
+          <img class="logo-img" src="https://mobirise.com/extensions/dinerm4/assets/images/logo2.png" alt="pizza">
           <a href="#" class="logo-txt">DinerM4</a>
         </div>
       </div>
 
       <div class="navbar-right">
         <div class="panel">
-          <a href="#" class="panel-txt" style="margin-top: 37px; margin-right: 20px;">Home</a>
+          <button href="#" class="panel-txt">Home</button>
 
           <div class="dropdown">
             <button id="live" style="color: #ffff; background-color: transparent;" class="btn btn-secondary dropdown-toggle panel-txt" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             Live</button>
             <ul class="dropdown-menu">
-              <li><button style="color: black;font-size: 10px;" class="dropdown-item" type="button">Thai Food</button></li>
-              <li><button style="color: black;font-size: 10px;" class="dropdown-item" type="button">Pizza Bar</button></li>
-              <li><button style="color: black;font-size: 10px;" class="dropdown-item" type="button">Sushi Cafe</button></li>
+              <li><button style="color: black;font-size: 15px; font-weight: 600;" class="dropdown-item" type="button">Thai Food</button></li>
+              <li><button style="color: black;font-size: 15px; font-weight: 600;" class="dropdown-item" type="button">Pizza Bar</button></li>
+              <li><button style="color: black;font-size: 15px; font-weight: 600;" class="dropdown-item" type="button">Sushi Cafe</button></li>
             </ul>
             <button id="live2" style="color: #ffff; background-color: transparent;" class="btn btn-secondary dropdown-toggle panel-txt" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             Live Blocks</button>
             <ul class="dropdown-menu">
-              <li><button style="color: black;font-size: 10px;" class="dropdown-item" type="button">Headers / Features / Pricing / Info</button></li>
-              <li><button style="color: black;font-size: 10px;" class="dropdown-item" type="button">Content / Shop / Accordions / Shop</button></li>
-              <li><button style="color: black;font-size: 10px;" class="dropdown-item" type="button">Gallery / Team / Testimonials / Forms</button></li>
-              <li><button style="color: black;font-size: 10px;" class="dropdown-item" type="button">Progress / Maps / Contacts / Footers</button></li>
+              <li><button style="color: black;font-size: 15px; font-weight: 600;" class="dropdown-item" type="button">Headers / Features / Pricing / Info</button></li>
+              <li><button style="color: black;font-size: 15px; font-weight: 600;" class="dropdown-item" type="button">Content / Shop / Accordions / Shop</button></li>
+              <li><button style="color: black;font-size: 15px; font-weight: 600;" class="dropdown-item" type="button">Gallery / Team / Testimonials / Forms</button></li>
+              <li><button style="color: black;font-size: 15px; font-weight: 600;" class="dropdown-item" type="button">Progress / Maps / Contacts / Footers</button></li>
             </ul>
           </div>
-          <button href="#" id="buy-now">Buy Now</button>
+          <button href="#" class="buy-now">Buy Now</button>
+          <div class="toggle_btn">
+            <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+          </div>
         </div>
       </div>
     </nav>
+
+    <div class="dropdown_menu">
+      <li>
+        <button href="#" class="panel-txt-mob">Home</button>
+      </li>
+      <li>
+        <button href="#" class="panel-txt-mob">Live</button>
+      </li>
+      <li>
+        <button href="#" class="panel-txt-mob">Live Blocks</button>
+      </li>
+      <li>
+        <button href="#" class="buy-now-mob" >Buy Now</button>
+      </li>
+    </div>
   </section>
 
   <section class="food">
@@ -413,15 +433,19 @@
   </section>
 
   <section class="subscribe">
-    <div class="subscribe_info">
-      <div class="subscribe_header">Let's connect!</div>
-      <div class="subscribe_descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-      <form action="" class="subscribe_form">
-        <input class="subscribe_input" type="email" name="name" placeholder="Your email address">
-        <button type="submit" class="subscribe_btn">Subscribe</button>
-      </form>
+    <div class="subscribe_block">
+
+      <div class="subscribe_info">
+        <div class="subscribe_header">Let's connect!</div>
+        <div class="subscribe_descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        <form action="" class="subscribe_form">
+          <input class="subscribe_input" type="email" name="name" placeholder="Your email address">
+          <button type="submit" class="subscribe_btn">Subscribe</button>
+        </form>
+      </div>
+      <img src="images/man.png" alt="man" class="subscribe_img">
+
     </div>
-    <img src="images/man.png" alt="man" class="subscribe_img">
   </section>
 
   <section class="question">
@@ -504,8 +528,20 @@
             <img src="images/instagram.svg" alt="instagram icon" class="social_icon">
           </button>
         </div>
-
 	  </div>
   </footer>
  </body>
+ <script>
+   const toggleBtn= document.querySelector('.toggle_btn')
+   const toggleBtnIcon = document.querySelector('.toggle_btn i')
+   const dropDownMenu= document.querySelector('.dropdown_menu')
+
+   toggleBtn.onclick = function () {
+     dropDownMenu.classList.toggle('open')
+     const isOpen = dropDownMenu.classList.contains('open')
+
+     toggleBtnIcon.classList = isOpen
+     ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'
+   }
+ </script>
 </html>

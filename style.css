@@ -13,28 +13,31 @@ section, footer{
 
 .main{
     background-color: #89b758;
-    /*min-width: 1166px;*/
+    min-height: 100px;
+    margin: 0 auto;
 }
 
 
 .navbar{
-    min-height: 100px;
+    height: 75px;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.navbar-left .logo{
+.logo{
     display: flex;
     align-items: center;
 }
 
-.navbar-left img{
-    max-width: 61px;
-    margin: 5px 0 10px 200px;
+.logo-img{
+    width: 70px;
 }
 
-.navbar-left .logo-txt{
+.logo-txt{
     font-family: 'Permanent Marker', cursive;
     color: #ffff;
     font-weight: 600;
@@ -43,25 +46,27 @@ section, footer{
     text-decoration: none;
 }
 
-.navbar-right .panel{
+.panel{
+    width: 500px;
+    height: 54px;
     display: flex;
-    margin-right: 200px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.navbar-right .panel .panel-txt{
-    margin: 24px 10px;
-    padding: 0 5px;
+.panel-txt, .panel-txt-mob{
     font-family: Roboto, sans-serif;
+    margin-right: 25px;
+    background-color: transparent;
     font-size: 16px;
     text-transform: uppercase;
     color: #ffff;
     font-weight: 600;
     text-decoration: none;
+    border: none;
 }
 
-
-.navbar-right .panel button{
-    padding: 8px 24px;
+.buy-now, .buy-now-mob{
     font-family: Roboto, sans-serif;
     font-size: 16px;
     text-transform: uppercase;
@@ -69,26 +74,69 @@ section, footer{
     color: #E7272D;
     font-weight: 600;
     border: #ffff;
-    min-width: 127px;
-    min-height: 50px;
-}
-
-#buy-now{
+    width: 127px;
+    height: 50px;
     border-radius: 40px;
-    margin: 24px 13px;
     transition: 0.3s;
 }
 
-#buy-now:hover{
+.buy-now:hover, .buy-now-mob:hover{
     color: #ffff00;
     border: 1px solid #ffff00;
+}
+
+.toggle_btn{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.dropdown_menu{
+    display: none;
+    width: 300px;
+    position: relative;
+    right: 6rem;
+    float: right;
+    top: 10px;
+    height:0;
+    background: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 2;
+    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown_menu.open{
+    height: 280px;
+}
+
+.dropdown_menu li{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown_menu li{
+    list-style: none;
+}
+
+.dropdown_menu .buy-now-mob{
+    width: 100%;
+}
+.panel-txt-mob{
+    transition: 0.5s;
+}
+
+.panel-txt-mob:hover{
+    color: #E7272D;
 }
 
 .food{
     background-color: #89b758;
     min-height: 1150px;
     /*min-width: 1166px;*/
-    padding: 72px 0 0 0;
+    padding: 65px 0 0 0;
     position: relative;
 }
 
@@ -760,22 +808,24 @@ section, footer{
 }
 
 .subscribe{
-    display: flex;
-    position: relative;
     height: 468px;
-    /*min-width: 1327px;*/
     background-color: #89B758;
-    padding-top: 140px;
-    padding-left: 200px;
+    padding: 33px 100px 0 100px;
+}
+
+.subscribe_block{
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    width: 1166px;
+    min-height: 440px;
 }
 
 .subscribe_img{
-    position: absolute;
-    bottom: 0;
-    width: 359px;
-    height: 438px;
-    margin-left: 770px;
-
+    display: block;
+    width: 345px;
+    height: 430px;
 }
 
 .subscribe_header{

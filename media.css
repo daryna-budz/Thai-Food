@@ -1,5 +1,19 @@
 @media (max-width: 991px){
-    .description, .news_text, .more_link{
+    .navbar{
+        padding: 12px 15px;
+    }
+    .logo-txt{
+        font-size: 28px;
+    }
+    .logo-img{
+        width: 75px;
+    }
+    .panel-txt{
+        font-size: 18px;
+        margin-right: 17px;
+    }
+
+    .description, .news_text{
         font-size: 18px;
     }
     .order_button{
@@ -49,6 +63,14 @@
     .subheader{
         margin-top: 40px;
     }
+    .news_block{
+        height: 500px;
+    }
+
+    .more_link{
+        margin-top: 23px;
+    }
+
     .choose_subheader{
         font-size: 27px;
     }
@@ -61,8 +83,8 @@
     .choose_text{
         line-height: 32px;
     }
-    .choose_button{
-        font-size: 19px;
+    .choose_button,  .more_link{
+        font-size: 20px;
     }
 
     .watch_btn{
@@ -91,12 +113,20 @@
         font-size: 17px;
     }
 
-    .about_txt{
-        font-size: 18px;
+    .about_txt, .about_right{
+        font-size: 19px;
     }
 
     .container_right{
         width: 245px;
+    }
+
+    .subfooter_container{
+        padding-top: 41px;
+    }
+
+    .left_about{
+        width: 465px;
     }
 
     .social_round{
@@ -109,3 +139,25 @@
         height: 30px;
     }
 }
+
+@media (max-width: 767px){
+    .panel-txt, .buy-now{
+        display: none;
+    }
+
+    .toggle_btn{
+        display: block;
+    }
+
+    .dropdown_menu{
+        display: block;
+    }
+}
+
+/*@media (max-width: 576px){
+    .dropdown_menu{
+        left: 27rem;
+        width: unset;
+    }
+}*/
+
