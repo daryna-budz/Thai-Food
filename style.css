@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-section, footer{
-    min-width: 1327px;
+body{
+    /*min-width: 1327px;*/
+    min-width: fit-content;
     margin: 0;
     padding: 0;
 }
@@ -20,7 +21,7 @@ section, footer{
 
 .navbar{
     height: 75px;
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px 15px;
     display: flex;
@@ -47,7 +48,7 @@ section, footer{
 }
 
 .panel{
-    width: 500px;
+    max-width: 500px;
     height: 54px;
     display: flex;
     justify-content: space-between;
@@ -93,9 +94,9 @@ section, footer{
 
 .dropdown_menu{
     display: none;
-    width: 300px;
+    width: 350px;
     position: relative;
-    right: 6rem;
+    right: 2rem;
     float: right;
     top: 10px;
     height:0;
@@ -181,8 +182,10 @@ section, footer{
     position: absolute;
     margin-top: 155px;
     margin-bottom: 75px;
-    min-width: 748px;
-    min-height: 690px;
+    max-width: 748px;
+    max-height: 690px;
+    width: 100%;
+    height: auto;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -212,7 +215,7 @@ section, footer{
 }
 
 .menu{
-    width: 1166px;
+    max-width: 1166px;
     height: 520px;
     margin: 0 auto;
     display: flex;
@@ -292,28 +295,34 @@ section, footer{
 }
 
 .traditions{
-    padding-top: 90px;
-    min-height: 670.2px;
+    padding: 90px 40px;
+    max-height: /*670.2*/1600px;
 }
 
 .block{
-    width: 1165px;
-    height: 475.23px;
+    /*max-width: 1165px;*/
+    max-width: 80%;
+    max-height: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
 }
 
+.traditions_block_full{
+    height: 100%;
+}
+
 .traditions_block{
-    width: 583px;
-    height: 475.23px;
+    max-width: 583px;
+    height: 100%;
     background-color: #FFFFFF;
     box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.18);
     border-radius: 4px;
+    padding-bottom: 10px;
 }
 
 .subheader_traditions{
-    margin-top: 47px;
+    padding-top: 47px;
 }
 
 .header_traditions{
@@ -333,6 +342,7 @@ section, footer{
     color: #808080;
     padding-left: 64px;
     padding-right: 64px;
+    padding-bottom: 40px;
 }
 
 .traditions_button{
@@ -340,7 +350,7 @@ section, footer{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    margin-top: 44.19px;
+    /*margin-top: 44.19px;*/
     background: #89B758;
     border: 1px solid #89B758;
     border-radius: 100px;
@@ -354,6 +364,7 @@ section, footer{
     color: #fff;
     text-align: center;
     transition: 0.5s;
+    margin-top: -40px;
 }
 
 .traditions_button:hover{
@@ -362,13 +373,14 @@ section, footer{
 }
 
 .traditions_img{
-    height: 475.23px;
+    height: 475.23px /*600px*/;
     width: 227.5px;
     border-radius: 4px;
 }
 
 .round{
-    min-height: 840.5px;
+    min-height: 640.5px;
+    padding-bottom: 90px;
 }
 
 
@@ -441,7 +453,9 @@ section, footer{
 }
 
 .our_menu{
-    min-height: 976px;
+    /*min-height: 976px;*/
+    max-height: 1900px;
+    padding-bottom: 30px;
 }
 
 .menu_header, .clients_header{
@@ -449,7 +463,7 @@ section, footer{
 }
 
 .menu_items{
-    height: 767px;
+    min-height: 767px;
     width: 1190px;
     margin: 0 auto;
     margin-top: 48px;
@@ -522,7 +536,7 @@ section, footer{
 
 .choose{
     background-color: #232323;
-    height: 724.34px;
+    min-height: 724.34px;
     /*min-width: 1185px;*/
 }
 
@@ -530,8 +544,8 @@ section, footer{
     justify-content: space-around;
     margin: 0 auto;
     display: flex;
-    width: 1150px;
-    height: 424.34px;
+    max-width: 1150px;
+    min-height: 424.34px;
 }
 
 .choose_left div{
@@ -540,6 +554,7 @@ section, footer{
 
 .choose_right div{
     text-align: right;
+    ;
 }
 
 .choose_subheader{
@@ -585,12 +600,12 @@ section, footer{
 }
 
 .news{
-    height: 798.28px;
+    min-height: 798.28px;
 }
 
 .news_container{
-    width: 1175px;
-    height: 530px;
+    max-width: 1175px;
+    min-height: 530px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
@@ -896,7 +911,7 @@ select:focus {
     justify-content: space-between;
     margin: 0 auto;
     display: flex;
-    width: 1166px;
+    max-width: 1166px;
     min-height: 550px;
 }
 
@@ -951,7 +966,7 @@ select:focus {
 .subfooter{
     background-color: #F3F7EE;
     /*min-width: 1185px;*/
-    height: 276px;
+    min-height: 276px;
 }
 
 .subfooter_container{
@@ -1048,7 +1063,7 @@ select:focus {
 }
 
 .footer{
-    height: 194px;
+    min-height: 194px;
     /*min-width: 1250px;*/
     background: #89B758;
 }
@@ -1057,7 +1072,7 @@ select:focus {
     display: flex;
     justify-content: space-between;
     width: 1130px;
-    height: 74px;
+    min-height: 74px;
     margin: 0 auto;
     padding-top: 60px;
 }

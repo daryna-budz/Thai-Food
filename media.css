@@ -26,6 +26,9 @@
         width: 70px;
         height: 70px;
     }
+    .traditions_block{
+        margin-top: -45px;
+    }
     .traditions_button{
         font-size: 18px;
         width: 225px;
@@ -140,7 +143,10 @@
     }
 }
 
-@media (max-width: 767px){
+@media (max-width: 768px){
+    .panel{
+        padding-right: 30px;
+    }
     .panel-txt, .buy-now{
         display: none;
     }
@@ -151,6 +157,190 @@
 
     .dropdown_menu{
         display: block;
+    }
+
+    /*.order_img{
+        max-width: 700px;
+        max-height: 666px;
+    }*/
+
+    .menu{
+        height: 1500px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .item_text{
+        font-size: 18px;
+    }
+
+    .block{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .traditions_block{
+        margin-top: -45px;
+    }
+
+    .traditions_img{
+        width: auto;
+        transform: rotate(270deg);
+    }
+
+    .round_circle{
+        width:600px;
+        height:550px;
+    }
+
+    .image_container img{
+        width: 295px;
+        height: 275px;
+    }
+
+    .text_column{
+        padding-top: 50px;
+        width: 94.33px;
+        height: 500.53px;
+    }
+
+    .round_img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .round_text{
+        width: 145px;
+        font-weight: 700;
+        font-size: 13px;
+    }
+
+    .menu_items{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .choose_container{
+        padding: 50px 50px;
+        flex-direction: column;
+    }
+
+    .choose_img{
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    .choose_right{
+        display: grid;
+        justify-items: end;
+    }
+    .choose_right div{
+        text-align: right;
+    }
+    .news{
+        height: 1850px;
+        padding-bottom: 50px;
+    }
+
+    /*.news_item{
+        width: 30%;
+    }*/
+
+    .news_container{
+        height: 1100px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        /*margin-left: -50px;*/
+    }
+
+    .watch{
+        height: 700px;
+    }
+    .watch_video{
+        padding-top: 280px;
+    }
+
+    .watch_image{
+        width: 750px;
+        height: 410px;
+        padding: 0 50px;
+    }
+
+    .clients_text{
+        width: 700px;
+    }
+    .subscribe{
+        height: 300px;
+        padding: 20px;
+        padding-top: 50px;
+    }
+    .subscribe_block{
+        justify-content: space-around;
+        width: 752px;
+        margin-top: -100px;
+    }
+
+    .subscribe_info{
+        padding-bottom: 40px;
+    }
+
+    .subscribe_img{
+        width: 215px;
+        height: 260px;
+    }
+
+    .subscribe_header{
+        font-size: 60px;
+    }
+
+    .subscribe_input{
+        width: 210px;
+    }
+
+    .subscribe_btn{
+        width: 185px;
+    }
+
+    .question_block{
+        height: 1200px;
+        flex-direction: column;
+        padding-left: 20px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .subfooter{
+        height: 500px;
+    }
+    .subfooter_container{
+        padding-top: 60px;
+        width: 800px;
+        flex-wrap: wrap;
+    }
+
+    .footer{
+        height: 300px;
+    }
+
+    .footer_container{
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 800px;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    .left_about, .left_rights{
+        margin: 0 auto;
+    }
+
+    .left_rights{
+        width: 500px;
     }
 }
 
