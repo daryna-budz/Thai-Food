@@ -229,7 +229,7 @@ body{
     position: relative;
 }
 
-.item img{
+.item_img{
     position: absolute;
     z-index: 1
 }
