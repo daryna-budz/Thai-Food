@@ -198,6 +198,7 @@
     }
 
     .menu{
+        margin-left: -3px;
         height: 1700px;
         flex-direction: column;
         justify-content: space-between;
