@@ -282,30 +282,36 @@
     }
 
     .round_circle{
-        width:700px;
-        height:660px;
+        width:1000px;
+        height:935px;
     }
 
     .image_container img{
-        width: 350px;
-        height: 305px;
+        width: 550px;
+        height: 500px;
     }
 
     .text_column{
-        padding-top: 60px;
+        justify-content: space-around;
+        padding-top: 70px;
         width: 94.33px;
-        height: 570.53px;
+        height: 800.53px;
+        margin-left: 140px;
     }
 
     .round_img{
-        width: 80px;
-        height: 80px;
+        width: 110px;
+        height: 110px;
+    }
+    .round_block_flex{
+        margin-left: -240px;
+        width: 365px;
     }
 
     .round_text{
         width: 145px;
         font-weight: 700;
-        font-size: 17px;
+        font-size: 20px;
     }
 
     .menu_items{
@@ -362,7 +368,6 @@
     }
 
     .clients_text{
-        margin-top: 50px;
         width: 700px;
     }
     .subscribe{
@@ -424,7 +429,7 @@
         justify-content: space-around;
         align-items: center;
         width: 800px;
-        height: 100%;
+        height: 90%;
         flex-wrap: wrap;
     }
 
